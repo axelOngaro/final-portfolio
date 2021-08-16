@@ -1,0 +1,98 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.header {
+  width: 100vw;
+  padding: 2em;
+}
+.header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header nav .portfolio {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 7.2rem;
+}
+.header nav ul {
+  font-size: 2.4rem;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+}
+
+.intro {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10% 0;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+}
+.name h1 {
+  font-size: 9.6rem;
+}
+
+.intro__text__presentation {
+  font-size: 2.4rem;
+}
+.intro__text__link {
+  font-size: 1.8rem;
+  color: #616161;
+}
+
+.latest__work {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  padding: 20em 10%;
+  font-size: 1.8rem;
+}
+.latest__work h2 {
+  font-size: 4.8rem;
+}
+
+.card__description {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.work__link {
+  display: flex;
+  padding: 10rem 0;
+  justify-content: center;
+}
+.work__link a {
+  font-size: 7.2rem;
+  color: #635454;
+}
+
+/*# sourceMappingURL=/main.48b3db1d.css.map */

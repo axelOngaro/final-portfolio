@@ -1,0 +1,30 @@
+.hero {
+  width: 100%;
+  height: auto;
+}
+.intro {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10% 0;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  h1 {
+    font-size: 9.6rem;
+  }
+}
+
+.intro__text {
+  &__presentation {
+    font-size: 2.4rem;
+  }
+  &__link {
+    font-size: 1.8rem;
+    color: #616161;
+  }
+}
