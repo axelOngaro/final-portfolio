@@ -94,6 +94,12 @@ nav ul {
   border: none;
   background-color: inherit;
   font-size: 6.4rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.contact__form button img {
+  margin-left: 0.4em;
 }
 
 .wrapper {

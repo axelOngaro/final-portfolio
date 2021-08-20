@@ -10,6 +10,12 @@
       border: none;
       background-color: inherit;
       font-size: 6.4rem;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      img {
+        margin-left: 0.4em;
+      }
     }
   }
 }
