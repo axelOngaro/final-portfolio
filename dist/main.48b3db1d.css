@@ -82,6 +82,80 @@ nav ul {
   color: #635454;
 }
 
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact__form label {
+  font-size: 1.5rem;
+}
+.contact__form button {
+  border: none;
+  background-color: inherit;
+  font-size: 6.4rem;
+}
+
+.wrapper {
+  margin: 2rem 0;
+}
+
+.input__wrapper {
+  border: 1px black solid;
+}
+.input__wrapper label {
+  padding: 0 3em;
+}
+.input__wrapper input {
+  padding: 1em;
+  border: none;
+  border-left: 1px black solid;
+}
+
+.message__wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+}
+.message__wrapper label {
+  text-align: center;
+  padding: 1em 0;
+}
+.message__wrapper textarea {
+  border: none;
+  border-top: 1px black solid;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.email p {
+  font-size: 3.6rem;
+}
+.email a {
+  font-size: 6.4rem;
+  padding: 1em 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.4rem;
+  padding: 0.5em 1em;
+}
+.footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 30%;
+}
+
 html {
   font-size: 62.5%;
 }
