@@ -80,6 +80,11 @@ nav ul {
 .work__link a {
   font-size: 7.2rem;
   color: #635454;
+  display: flex;
+  align-items: center;
+}
+.work__link a img {
+  margin-left: 0.4em;
 }
 
 .contact__form {
