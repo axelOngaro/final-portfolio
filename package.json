@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "sass": "^1.37.5"
+  },
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "gsap": "^3.7.1"
   }
 }
