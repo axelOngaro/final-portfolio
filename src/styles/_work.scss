@@ -1,0 +1,23 @@
+.first__work__section {
+  display: flex;
+  justify-content: space-between;
+  height: 200vh;
+  padding: 0 10%;
+  margin-top: 20em;
+}
+
+#desert {
+  align-self: flex-end;
+}
+
+.second__work__section {
+  display: flex;
+  justify-content: center;
+  padding-top: 20em;
+}
+
+.third__work__section {
+  display: flex;
+  justify-content: center;
+  padding: 25em 0;
+}

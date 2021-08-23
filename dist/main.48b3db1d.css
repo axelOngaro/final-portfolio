@@ -13,10 +13,10 @@ nav ul {
 .header nav .portfolio {
   flex-grow: 1;
   text-align: center;
-  font-size: 7.2rem;
+  font-size: 4rem;
 }
 .header nav ul {
-  font-size: 2.4rem;
+  font-size: 1.2rem;
   display: flex;
   flex-grow: 1;
   justify-content: space-around;
@@ -164,6 +164,52 @@ nav ul {
   align-items: center;
   justify-content: space-between;
   list-style: none;
+  width: 30%;
+}
+
+.first__work__section {
+  display: flex;
+  justify-content: space-between;
+  height: 200vh;
+  padding: 0 10%;
+  margin-top: 20em;
+}
+
+#desert {
+  align-self: flex-end;
+}
+
+.second__work__section {
+  display: flex;
+  justify-content: center;
+  padding-top: 20em;
+}
+
+.third__work__section {
+  display: flex;
+  justify-content: center;
+  padding: 25em 0;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  height: 50vh;
+  justify-content: space-between;
+  padding: 5em 10%;
+}
+
+.intro__description {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.detailed__description {
+  align-self: flex-end;
   width: 30%;
 }
 
