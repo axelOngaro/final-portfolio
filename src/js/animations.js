@@ -18,3 +18,12 @@ barba.init({
     },
   ],
 });
+
+const darkToggle = document.getElementById('darkToggle');
+darkToggle.addEventListener('click', darkMode);
+
+function darkMode() {
+  const element = document.getElementById('body');
+  darkToggle.classList.toggle('dark__mode__btn');
+  element.classList.toggle('dark__mode');
+}

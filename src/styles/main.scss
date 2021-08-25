@@ -21,3 +21,11 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.dark__mode {
+  background-color: black;
+  color: white;
+  &__btn {
+    background-color: wheat;
+  }
+}

@@ -53,6 +53,17 @@ nav ul {
   color: #616161;
 }
 
+.darkToggle {
+  position: fixed;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  border: none;
+  background-color: black;
+  bottom: 5%;
+  right: 5%;
+}
+
 .latest__work {
   display: flex;
   justify-content: space-between;
@@ -227,6 +238,14 @@ html {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.dark__mode {
+  background-color: black;
+  color: white;
+}
+.dark__mode__btn {
+  background-color: wheat;
 }
 
 /*# sourceMappingURL=/main.48b3db1d.css.map */
