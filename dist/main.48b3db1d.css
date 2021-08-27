@@ -4,11 +4,14 @@ nav ul {
 
 .header {
   padding: 2em;
+  width: 100%;
+  position: fixed;
 }
 .header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  top: 0;
 }
 .header nav .portfolio {
   flex-grow: 1;
@@ -222,6 +225,10 @@ nav ul {
 .detailed__description {
   align-self: flex-end;
   width: 30%;
+}
+
+main {
+  padding-top: 20vh;
 }
 
 html {

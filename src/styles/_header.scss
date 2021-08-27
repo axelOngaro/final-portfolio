@@ -4,10 +4,13 @@ nav ul {
 
 .header {
   padding: 2em;
+  width: 100%;
+  position: fixed;
   nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    top: 0;
     .portfolio {
       flex-grow: 1;
       text-align: center;
