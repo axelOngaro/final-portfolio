@@ -6,6 +6,7 @@ nav ul {
   padding: 2em;
   width: 100%;
   position: fixed;
+  top: 0;
 }
 .header nav {
   display: flex;
